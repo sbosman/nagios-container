@@ -4,7 +4,7 @@
 # Builds a basic docker image that can run nagios
 #
 # Authors: Bosman
-# Updated: April 27th, 2017
+# Updated: November 11th, 2017
 # Require: Docker (http://www.docker.io/)
 # -----------------------------------------------------------------------------
 
@@ -35,6 +35,7 @@ RUN yum clean all \
 RUN yum install -y \
 	httpd \
 	mod_ssl \
+	bash-completion \
 	yum-utils \
 	php \
 	php-cli \
