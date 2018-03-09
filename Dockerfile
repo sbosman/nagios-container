@@ -4,7 +4,7 @@
 # Builds a basic docker image that can run nagios
 #
 # Authors: Bosman
-# Updated: November 11th, 2017
+# Updated: March 8th, 2018
 # Require: Docker (http://www.docker.io/)
 # -----------------------------------------------------------------------------
 
