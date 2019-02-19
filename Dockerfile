@@ -8,7 +8,7 @@
 # Require: Docker (http://www.docker.io/)
 # -----------------------------------------------------------------------------
 
-# Base system is CentOS 6.9
+# Base system is CentOS 6.10
 FROM    centos:centos6
 MAINTAINER "Bosman"
 ENV container=docker \
