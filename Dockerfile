@@ -43,19 +43,14 @@ RUN yum install -y \
 	sendmail \
 	crontabs \
 	vim-common \
-	vim-enhanced \
-	mlocate \
 	sysstat \
 	wget \
 	unzip \
-	screen \
 	ntp \
 	man \
 	elinks \
 	cronie \
-	mtr \
 	traceroute \
-	nmap \
 	ipset \
 	postfix \
 	bridge-utils \
