@@ -6,4 +6,4 @@ docker run -itd \
 --restart=always \
 -p 80:80 \
 -p 443:443 \
-bosman/nagios:latest
+bosman/nagios-container:latest
