@@ -82,9 +82,6 @@ RUN yum-config-manager --disable epel-testing
 # Create and set the nagios login and password (change this for your custom use - username first then password).
 RUN /usr/bin/htpasswd -c -b /etc/nagios/htpasswd nagiosadmin nagiosadmin
 
-# Start our services
-#RUN for startup in nrpe crond httpd nagios sendmail;do /sbin/service $startup on;done
-
 # Config services startup
 #RUN for service in nrpe crond httpd nagios sendmail;do /sbin/service $service start;done
 
