@@ -83,7 +83,7 @@ RUN yum-config-manager --disable epel-testing
 RUN /usr/bin/htpasswd -c -b /etc/nagios/htpasswd nagiosadmin nagiosadmin
 
 # Config services startup
-#RUN for service in nrpe crond httpd nagios sendmail;do /sbin/service $service start;done
+RUN for service in nrpe crond httpd nagios sendmail;do /sbin/service $service start;done
 
 # Disable Nagios Notifications (comment this out if you want notifications out of the box).
 RUN perl -pi -e 's/^enable_notifications=1/enable_notifications=0/' /etc/nagios/nagios.cfg
